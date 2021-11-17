@@ -39,3 +39,40 @@
 }
 
 /* test.html */
+
+.header {
+  background-color: #0d6efd;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #eeeeee;
+  padding: 50px 0 50px 0;
+}
+
+.question h2 {
+  font-weight: 700;
+}
+
+.question p {
+  text-align: center;
+  width: 80%;
+}
+
