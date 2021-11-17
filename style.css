@@ -7,14 +7,24 @@
 .landing {
   background-color: #0d6efd;
   height: 70vh;
-  display: flex;
   min-height: 500px;
+  display: flex;
   flex-direction: column;
-  min-height: 800px;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
+}
+
+.landing h1 {
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  padding-bottom: 3px;
+  font-weight: 700;
+}
+
+.landing p {
+  margin-bottom: 2px;
 }
 
 .footer {
@@ -27,22 +37,12 @@
   align-items: center;
 }
 
-.landing p {
-  margin-bottom: 2px;
-}
-
-.landing h1 {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  font-weight: 700;
-  padding-bottom: 3px;
-}
-
 /* test.html */
 
 .header {
   background-color: #0d6efd;
   height: 10vh;
+  min-height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,10 +52,10 @@
 }
 
 .header h1 {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  font-weight: 700;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
   padding-bottom: 3px;
+  font-weight: 700;
 }
 
 .question {
@@ -64,7 +64,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: solid 1px #eeeeee;
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
 }
 
 .question h2 {
@@ -91,3 +91,12 @@
   max-width: 500px;
   width: 80%;
 }
+
+.kakao-ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 100px;
+}
+
