@@ -2,11 +2,15 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+/* index.html */
+
 .landing {
   background-color: #0d6efd;
   height: 70vh;
   display: flex;
+  min-height: 500px;
   flex-direction: column;
+  min-height: 800px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -16,4 +20,22 @@
 .footer {
   background-color: #e8eef4;
   height: 30vh;
+  color: #7c8081;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.landing p {
+  margin-bottom: 2px;
+}
+
+.landing h1 {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+/* test.html */
